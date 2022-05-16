@@ -95,6 +95,14 @@ hr{
     width: 100%;
     min-height: 500px;
 }
+.home-index .container2 .carousel-item .carousel-caption{
+    background-color: #1d1d1db0;
+    color: white;
+    border-radius: 25px;
+    width: 50%;
+    margin: auto;
+}
+
 /*CONTENEDOR FIGURAS 1*/
 .contenedor{
     width: 100%;
