@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+
+  @font-face{
+    font-family:"loew-light";
+    src:url(../font/Loew-Light.otf)
+}
+@font-face{
+    font-family:"Loew-LightItalic";
+    src:url(../font/Loew-LightItalic.otf)
+}
+
+
+/*NAVBAR*/
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    font-family:"loew-light";
+}
+.navbar .collapse .nav-link{
+    color: black; 
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.navbar .collapse .btn-group:hover{
+    color: #EF7E2D;
+    border-bottom: 2px solid #113B7F;
+}
+.navbar .collapse .nav-link:hover{
+    color: #EF7E2D;
+    border-bottom: 2px solid #113B7F;
+}
+.navbar .collapse .dropdown-item:hover{
+    color: white;
+    background-color:  #113B7F;
+}
+.navbar .collapse .navbar-nav li{
+    display:inline;
+    font-size: 17px;
+}
+.navbar .collapse .btn{
+    font-size: 18px;
+}
+.dropdown .btn{
+    background-color: #ff902f;
+    color: white;
+}
+.navbar img{
+    width: 270px;
+    padding: 10px;
+}
+header .navbar .collapse .nav-exp{
+    background-color: #DB7217;
+    color: white;
+    border-radius: 5px;
+}
+.navbar .collapse .nav-exp:hover{
+    background-color: #995010;
+    color: white;
+}
+hr{
+    margin-top: -10px;
+    background-color: #f37608;
+}
+
+
+/*PRODUCTOS*/
+/********************************************/
+.home-productos{
+    width: 100%;
+    min-height: 250px;
+    padding-top: 150px;
+    font-family:"loew-light";
+}
+.home-productos .img-producto{
+    background-image: url(../image/productos/muebles/home-mueble.jpg);
+    background-size: cover;
+    min-height: 200px;
+    color: #ffffff;
+}
+.img-producto h2{
+    text-align: center;
+    padding-top: 60px;
+    font-family:"Loew-LightItalic";
+    font-size: 70px;
+    text-shadow: 4px 2px 3px black;
+}
+.home-productos .card-producto{
+    padding-top: 40px;
+}
+.home-productos .card-pdt{
+   padding: 20px;
+}
+.card-pdt li{
+    list-style: none;
+    font-size: 14px;
+}
+.card-pdt h4{
+    font-family:"loew-light";
+    font-size: 27px;
+}
+
+
+
+
+/*FOOTER*/
+.footer{
+    margin-bottom: 40px;
+}
+.footer p{
+   font-size: 15px;
+   margin-top: 10px;
+   float: left;
+   font-family:"loew-light";
+}
+.footer a{
+    text-decoration: none;
+    font-size: 20x;
+    text-align: center;
+    color: #EF7E2D;
+    font-family:"loew-light";
+    font-weight: bold;
+}
+.footer a:hover{
+    color: #EF7E2D;
+}
+
+.footer .top{
+    float: right;
+    background-color: #EF7E2D;
+    padding: 5px;
+    border-radius: 5px;
+
+}

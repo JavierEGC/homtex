@@ -1,0 +1,813 @@
+* {
+    
+    box-sizing: border-box;
+  }
+  @font-face{
+    font-family:"loew-light";
+    src:url(../font/Loew-Light.otf)
+}
+@font-face{
+    font-family:"Loew-LightItalic";
+    src:url(../font/Loew-LightItalic.otf)
+}
+/*NAVBAR*/
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    font-family:"loew-light";
+}
+header .navbar{
+    margin: 10px;
+}
+.navbar .collapse .nav-link{
+    color: black; 
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.navbar .collapse .btn-group:hover{
+    color: #EF7E2D;
+    border-bottom: 2px solid #113B7F;
+}
+.navbar .collapse .nav-link:hover{
+    color: #EF7E2D;
+    border-bottom: 2px solid #113B7F;
+}
+.navbar .collapse .dropdown-item:hover{
+    color: white;
+    background-color:  #113B7F;
+}
+.navbar .collapse .navbar-nav li{
+    display:inline;
+    font-size: 17px;
+}
+.navbar .collapse .btn{
+    font-size: 17px;
+}
+.navbar img{
+    width: 250px;
+}
+.dropdown .btn{
+    background-color: #ff902f;
+    color: white;
+}
+.dropdown .dropdown-menu a{
+    font-size: 16px;
+}
+header .navbar .collapse .nav-exp{
+    background-color: #DB7217;
+    color: white;
+    border-radius: 5px;
+}
+.navbar .collapse .nav-exp:hover{
+    background-color: #995010;
+    color: white;
+}
+hr{
+    margin-top: -10px;
+    background-color: #f37608;
+}
+
+/*INICIO*/
+/****************************************************/
+
+/*HOME INDEX*/
+.home-index .container2{
+    width: 90%;
+    margin: auto;
+}
+.home-index .carousel-inner img{
+    width: 100%;
+    height: 930px;
+}
+
+.home-index h2{
+    font-size: 35px;
+    padding: 50px;
+    text-align: center;
+    color: #696969;
+    font-family:"loew-light";
+}
+.home-index{
+    width: 100%;
+    min-height: 500px;
+}
+/*CONTENEDOR FIGURAS 1*/
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor figure{
+    position:relative;
+     height: 350px;
+     cursor: pointer;
+     width: 430px;
+     overflow: hidden;
+     border-radius: 6px;
+     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.489);
+ }
+ .contenedor .figure2{
+    position:relative;
+     height: 300px;
+     cursor: pointer;
+     width: 600px;
+     overflow: hidden;
+     border-radius: 6px;
+     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.489);
+ }
+.contenedor img{
+    width: 100%;
+    height: 100%;
+    transition: all 400ms ease-out;
+    will-change: transform;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+   background: rgba(255, 255, 255, 0.268);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor figure:hover > .capa h3{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.contenedor figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+    border-bottom: 2px solid white;
+    font-family:"loew-light";
+    background-color: rgba(0, 0, 0, 0.483);
+    width: 50%;
+}
+.contenedor figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+    float: right;
+    margin-top: 50px;
+    font-family:"loew-light";
+}
+/*SECCION DE MAS PRODUCTOS*/
+.home-index .bloque-pago{
+    background-color: #e4e4e4;
+    padding: 25px;
+    margin-top: 50px;
+}
+.bloque-pago h3{
+    font-size: 30x;
+    padding-top: 20px;
+    text-align: center;
+    color: #696969;
+    font-family:"loew-light";
+}
+.bloque-pago p{
+    font-size: 18x;
+    text-align: center;
+    color: #464646;
+    font-family:"loew-light";
+    margin-bottom: 30px;
+}
+.bloque-pago a{
+    text-decoration: none;
+    font-size: 20x;
+    text-align: center;
+    color: #EF7E2D;
+    font-family:"loew-light";
+    font-weight: bold;
+}
+.bloque-pago h5{
+    font-size: 50px;
+    text-align: center;
+    color: #464646;
+    font-family:"loew-light";
+    margin-bottom: 30px;
+}
+.bloque-pago b{
+    color: #DB7217;
+    font-family:"Loew-LightItalic";
+}
+/*CONTACTANOS*/
+.home-index .contact{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.contact a, h6{
+    font-size: 17px;
+    text-decoration: none;
+    color: #696969;
+    font-family:"loew-light";
+}
+.contact a:hover{
+    color: #696969;
+}
+.contact .redes-sociales{
+    margin-right: 30px;
+}
+
+
+
+
+/*NOSOTROS*/
+/****************************************************/
+.home-nosotros{
+    width: 100%;
+    min-height: 750px;
+    padding-top: 100px;
+}
+.home-nosotros .bloque-text{
+    background-color: #e4e4e4;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.home-nosotros .contenedor{
+    width: 50%;
+    margin: auto;
+}
+.home-nosotros .carousel-inner img{
+    width: 100%;
+    height: 450px;
+}
+.home-nosotros .img-nosotros img{
+    text-align: center;
+    width: 80%;
+}
+.home-nosotros .text-nosotros{
+    display: table;
+    border-bottom: 2px solid #DB7217;
+    border-top: 2px solid #113B7F;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+.home-nosotros p{
+    width: 80%;
+    color: #434242;
+    text-align: center;
+    font-size: 18px;
+    font-family:"loew-light";
+    text-align: justify;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/*CONTACTANOS*/
+/****************************************************/
+.home-contactanos{
+    width: 95%;
+    min-height: 750px;
+    padding-top: 120px;
+    text-align: center;
+    font-family:"loew-light";
+    margin: auto;
+}
+.home-contactanos h2{
+    font-size: 35px;
+    padding: 40px;
+    text-align: center;
+    color: #696969;
+    font-family:"loew-light";
+    margin-top: 30px;
+}
+.home-contactanos h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #113B7F;
+    font-weight: bold;
+    font-family:"loew-light";
+}
+.home-contactanos h4{
+    font-size: 28px;
+    text-align: center;
+    color: #696969;
+    font-family:"loew-light";
+}
+.home-contactanos h5{
+    font-size: 20px;
+    color: #434242;
+    margin-bottom: 20px;
+    font-family:"loew-light";
+}
+.home-contactanos h6{
+    font-size: 18px;
+    color: #727070;
+    margin-bottom: 40px;
+    font-family:"loew-light";
+}
+.home-contactanos p{
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: #727070;
+    font-family:"loew-light";
+}
+.home-contactanos iframe{
+    width: 90%;
+    height: 350px;
+    margin-bottom: 50px;
+}
+.home-contactanos a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #696969;
+    font-family:"loew-light";
+}
+.home-contactanos a:hover{
+    color: #696969;
+}
+
+
+
+
+/*NOSOTROS*/
+/**********************************/
+.home-nosotros{
+    min-height: 700px;
+}
+
+
+
+
+
+/*FOOTER*/
+.footer{
+    margin-bottom: 40px;
+}
+.footer p{
+   font-size: 15px;
+   margin-top: 10px;
+   float: left;
+   font-family:"loew-light";
+}
+.footer a{
+    text-decoration: none;
+    font-size: 20x;
+    text-align: center;
+    color: #EF7E2D;
+    font-family:"loew-light";
+    font-weight: bold;
+}
+.footer a:hover{
+    color: #EF7E2D;
+}
+
+.footer .top{
+    float: right;
+    background-color: #EF7E2D;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+
+
+/*RESPONSIVE*/
+/*************************************/
+
+/*PANTALLA GRANDES*/
+@media (max-width:1400px){
+    /*INDEX*/
+    /**********************************************************/
+    /*HEADER*/
+    .navbar .collapse .navbar-nav li{
+        font-size: 15px;
+    }
+    .navbar .collapse .btn{
+        font-size: 15px;
+    }
+    .navbar img{
+        width: 160px;
+    }
+    /*REEL CAROUSEL*/
+    .home-index .carousel-inner img{
+        width: 100%;
+        height: 600px;
+    } 
+    /*CATEGORIAS DE PRODUCTOS*/
+    .contenedor figure{
+      height: 270px;
+      width: 320px;
+      margin: 10px;
+         text-align: center;
+     }
+    .contenedor .figure2{
+      height: 270px;
+       width: 530px;
+       margin: 10px;
+          text-align: center;
+      }
+   .home-index h2{
+    font-size: 24px;
+    }
+     /*BLOQUE PAGO*/
+    .bloque-pago h3{
+        font-size: 14x;
+    }
+    .bloque-pago p{
+        font-size: 15x;
+    }
+    .bloque-pago a{
+        font-size: 14x;
+    }
+    .bloque-pago h5{
+        font-size: 14px;
+    }
+    .contact a, h6{
+        font-size: 13px;
+    } 
+    /*CONTACTANOS INDEX*/
+    .bloq-cont{
+        padding: 10px;
+        text-align: center;
+    }
+    .contact h2{
+        font-size: 18px;
+        margin-bottom: -20px;
+        margin-top: -30px;
+    }
+    .contact h5{
+        font-size: 16px;
+    }
+    .contact a{
+        font-size: 14px;
+    }
+    .contact .redes-sociales{
+        margin: 20px;
+    }    
+
+    /*CONTACTANOS*/
+    /**********************************************************/
+    /*CONTACTANOS*/
+    .home-contactanos h2{
+        font-size: 30px;
+        padding: 0;
+    }
+    .home-contactanos h3{
+        font-size: 17px;
+    }
+    .home-contactanos h4{
+        font-size: 17px;
+    }
+    .home-contactanos h5{
+        font-size: 15px;
+    }
+    .home-contactanos h6{
+        font-size: 14px;
+    }
+    .home-contactanos a{
+        font-size: 14px;
+    }
+    .home-contactanos p{
+        font-size: 14px;
+    }
+
+    /*FOOTER*/
+    /**********************************************************/
+    .footer{
+        text-align: center;
+    }
+    .footer .foot-1{
+        width: 80%;
+        float: left;
+    }
+    
+    .footer p{
+        font-size: 14px;
+     }
+     .footer a{
+         font-size: 15x;
+     }
+}
+
+
+/*PANTALLA MEDIANAS*/
+@media (max-width:1200px){
+    /*INDEX*/
+    /**********************************************************/
+    /*HEADER*/
+    .navbar .collapse .navbar-nav li{
+        font-size: 15px;
+    }
+    .navbar .collapse .btn{
+        font-size: 15px;
+    }
+    .navbar img{
+        width: 160px;
+    }
+    /*REEL CAROUSEL*/
+    .home-index .carousel-inner img{
+        width: 100%;
+        height: 600px;
+    } 
+    /*CATEGORIAS DE PRODUCTOS*/
+    .contenedor figure{
+      height: 240px;
+      width: 290px;
+      margin: 10px;
+         text-align: center;
+     }
+    .contenedor .figure2{
+      height: 240px;
+       width: 430px;
+       margin: 10px;
+          text-align: center;
+      }
+   .home-index h2{
+    font-size: 24px;
+    }
+     /*BLOQUE PAGO*/
+    .bloque-pago h3{
+        font-size: 14x;
+    }
+    .bloque-pago p{
+        font-size: 15x;
+    }
+    .bloque-pago a{
+        font-size: 14x;
+    }
+    .bloque-pago h5{
+        font-size: 14px;
+    }
+    .contact a, h6{
+        font-size: 13px;
+    }
+ 
+
+    /*CONTACTANOS INDEX*/
+    .bloq-cont{
+        padding: 10px;
+        text-align: center;
+    }
+    .contact h2{
+        font-size: 18px;
+        margin-bottom: -20px;
+        margin-top: -30px;
+    }
+    .contact h5{
+        font-size: 16px;
+    }
+    .contact a{
+        font-size: 14px;
+    }
+    .contact .redes-sociales{
+        margin: 20px;
+    }
+
+    
+    /*FOOTER*/
+    .footer{
+        text-align: center;
+    }
+    .footer .foot-1{
+        width: 80%;
+        float: left;
+    }
+    
+    .footer p{
+        font-size: 15px;
+     }
+     .footer a{
+         font-size: 15x;
+     }
+}
+
+
+
+/*TABLETS*/
+@media (max-width:1000px){
+    /*INDEX*/
+    /**********************************************************/
+    /*HEADER*/
+    .navbar .collapse .navbar-nav li{
+        font-size: 15px;
+    }
+    .navbar .collapse .btn{
+        font-size: 15px;
+    }
+    .navbar .collapse .dropdown-menu{
+        float: right;
+    }
+    .navbar img{
+        width: 180px;
+    }
+    /*REEL CAROUSEL*/
+    .home-index .carousel-inner img{
+        width: 100%;
+        height: 600px;
+    }
+   .home-index h2{
+    font-size: 18px;
+    }    
+  /*CATEGORIAS DE PRODUCTOS*/
+  .contenedor figure{
+    height: 270px;
+    width: 320px;
+    margin: 10px;
+       text-align: center;
+   }
+  .contenedor .figure2{
+    height: 270px;
+     width: 320px;
+     margin: 10px;
+        text-align: center;
+    }
+    /*BLOQUE PAGO*/
+    .bloque-pago h3{
+        font-size: 14x;
+    }
+    .bloque-pago p{
+        font-size: 15x;
+    }
+    .bloque-pago a{
+        font-size: 14x;
+    }
+    .bloque-pago h5{
+        font-size: 14px;
+    }
+
+    .contact a, h6{
+        font-size: 13px;
+    }
+
+    /*CONTACTANOS INDEX*/
+    .bloq-cont{
+        padding: 10px;
+        text-align: center;
+    }
+    .contact h2{
+        font-size: 18px;
+        margin-bottom: -20px;
+        margin-top: -30px;
+    }
+    .contact h5{
+        font-size: 16px;
+    }
+    .contact a{
+        font-size: 14px;
+    }
+    .contact .redes-sociales{
+        margin: 20px;
+    }
+
+    
+    /*FOOTER*/
+    .footer{
+        text-align: center;
+    }
+    .footer .foot-1{
+        width: 80%;
+        float: left;
+    }
+    
+    .footer p{
+        font-size: 12px;
+     }
+     .footer a{
+         font-size: 15x;
+     }
+}
+
+
+/*MOVILES*/
+@media (max-width:480px){
+    /*INDEX*/
+    /**********************************************************/
+    /*HEADER*/
+    .navbar .collapse .navbar-nav li{
+        font-size: 15px;
+    }
+    .navbar .collapse .btn{
+        font-size: 15px;
+    }
+    .navbar img{
+        width: 140px;
+    }
+
+   .home-index h2{
+    font-size: 18px;
+    }
+    .bloque-pago h3{
+        font-size: 14x;
+    }
+    .bloque-pago p{
+        font-size: 15x;
+    }
+    .bloque-pago a{
+        font-size: 14x;
+    }
+    .bloque-pago h5{
+        font-size: 14px;
+    }
+
+    .contact a, h6{
+        font-size: 13px;
+    }
+ 
+    /*REEL CAROUSEL*/
+    .home-index .carousel-inner img{
+        width: 100%;
+        height: 320px;
+    }
+
+  /*CATEGORIAS DE PRODUCTOS*/
+  .contenedor figure{
+    height: 270px;
+    width: 320px;
+    margin: 10px;
+       text-align: center;
+   }
+  .contenedor .figure2{
+    height: 270px;
+     width: 320px;
+     margin: 10px;
+        text-align: center;
+    }
+
+    /*CONTACTANOS INDEX*/
+    .bloq-cont{
+        padding: 10px;
+        text-align: center;
+    }
+    .contact h2{
+        font-size: 18px;
+        margin-bottom: -20px;
+        margin-top: -30px;
+    }
+    .contact h5{
+        font-size: 16px;
+    }
+    .contact a{
+        font-size: 14px;
+    }
+    .contact .redes-sociales{
+        margin: 20px;
+    }
+    
+
+
+    /*CONTACTANOS*/
+    /**********************************************************/
+    /*CONTACTANOS*/
+    .home-contactanos h2{
+        font-size: 20px;
+        padding: 0;
+    }
+    .home-contactanos h3{
+        font-size: 16px;
+    }
+    .home-contactanos h4{
+        font-size: 16px;
+    }
+    .home-contactanos h5{
+        font-size: 14px;
+    }
+    .home-contactanos h6{
+        font-size: 12px;
+    }
+    .home-contactanos p{
+        font-size: 11px;
+    }
+
+
+    /*FOOTER*/
+    .footer{
+        text-align: center;
+    }
+    .footer p{
+        font-size: 12px;
+     }
+     .footer a{
+         font-size: 15x;
+     }
+     .footer .top{
+        display:none !important;
+    }
+    .footer .foot-1{
+        width: 100%;
+        float: left;
+    }
+}
