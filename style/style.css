@@ -775,12 +775,15 @@ hr{
     .home-contactanos h2{
         font-size: 20px;
         padding: 0;
+        margin-top: -20px;
     }
     .home-contactanos h3{
         font-size: 16px;
     }
     .home-contactanos h4{
         font-size: 16px;
+        padding-top: 20px;
+        font-weight: bold;
     }
     .home-contactanos h5{
         font-size: 14px;
@@ -791,6 +794,7 @@ hr{
     .home-contactanos p{
         font-size: 11px;
     }
+
 
 
     /*FOOTER*/
