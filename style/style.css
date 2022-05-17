@@ -855,6 +855,10 @@ hr{
      .footer a{
          font-size: 15x;
      }
+    .footer b{
+        background-color: white;
+        color: #DB7217;
+    }
      .footer .top{
         display:none !important;
     }
