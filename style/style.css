@@ -109,12 +109,14 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px;
 }
 .contenedor figure{
     position:relative;
-     height: 350px;
+    
+     height: 300px;
      cursor: pointer;
-     width: 430px;
+     width: 400px;
      overflow: hidden;
      border-radius: 6px;
      box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.489);
@@ -166,6 +168,8 @@ hr{
     background-color: rgba(0, 0, 0, 0.483);
     width: 50%;
 }
+
+
 .contenedor figure .capa p{
     color: #fff;
     font-size: 15px;
@@ -696,6 +700,8 @@ hr{
      }
      .footer a{
          font-size: 15x;
+         background-color: #DB7217;
+         color: rgb(255, 255, 255);
      }
 }
 
@@ -705,6 +711,9 @@ hr{
     /*INDEX*/
     /**********************************************************/
     /*HEADER*/
+    .navbar{
+        white-space:nowrap;
+    }
     .navbar .collapse .navbar-nav li{
         font-size: 15px;
     }
@@ -753,6 +762,21 @@ hr{
      width: 320px;
      margin: 10px;
         text-align: center;
+    }
+    .contenedor figure .capa h2{
+        display:none !important;
+    }
+    .contenedor figure .text-movile h2{
+       position: absolute;
+       font-family:"loew-light";
+       font-weight: bold;
+       color: white;
+        top: 15%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        background-color: #1b1b1bbc;
+        padding: 8px;
+        width: 50%;
     }
 
     /*CONTACTANOS INDEX*/
