@@ -652,6 +652,15 @@ hr{
     .navbar .collapse .dropdown-menu{
         text-align: center;
     }
+    .navbar .collapse .dropdown-menu{
+        background-color: #ff902f;
+        width: 60%;
+        margin: auto;
+    }
+    .navbar .collapse .dropdown-menu .dropdown-item{
+        color: white;
+        text-align: center;
+    }
     /*REEL CAROUSEL*/
     .home-index .carousel-inner img{
         width: 100%;
@@ -816,6 +825,15 @@ hr{
     }
    .home-index h2{
     font-size: 18px;
+    }
+    .navbar .collapse .dropdown-menu{
+        background-color: #ff902f;
+        width: 80%;
+        margin: auto;
+    }
+    .navbar .collapse .dropdown-menu .dropdown-item{
+        color: white;
+        text-align: center;
     }
     /*REEL CAROUSEL*/
     .home-index .carousel-inner img{
