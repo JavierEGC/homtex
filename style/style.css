@@ -506,7 +506,10 @@ hr{
         width: 80%;
         float: left;
     }
-    
+     .footer b{
+        background-color: white;
+        color: #DB7217;
+    }
     .footer p{
         font-size: 14px;
      }
@@ -598,7 +601,10 @@ hr{
         width: 80%;
         float: left;
     }
-    
+     .footer b{
+        background-color: white;
+        color: #DB7217;
+    }
     .footer p{
         font-size: 15px;
      }
@@ -694,7 +700,10 @@ hr{
         width: 80%;
         float: left;
     }
-    
+     .footer b{
+        background-color: white;
+        color: #DB7217;
+    }
     .footer p{
         font-size: 12px;
      }
