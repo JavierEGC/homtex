@@ -786,6 +786,7 @@ hr{
         background-color: #1b1b1bbc;
         padding: 8px;
         width: 50%;
+        border-bottom: 2px solid white;
     }
 
     /*CONTACTANOS INDEX*/
