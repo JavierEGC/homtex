@@ -21,11 +21,11 @@ header{
 }
 header .navbar{
     margin: 10px;
+    text-align: center;
 }
 .navbar .collapse .nav-link{
     color: black; 
     cursor: pointer;
-    border: 2px solid transparent;
 }
 .navbar .collapse .btn-group:hover{
     color: #EF7E2D;
@@ -33,7 +33,6 @@ header .navbar{
 }
 .navbar .collapse .nav-link:hover{
     color: #EF7E2D;
-    border-bottom: 2px solid #113B7F;
 }
 .navbar .collapse .dropdown-item:hover{
     color: white;
@@ -650,6 +649,9 @@ hr{
     .navbar img{
         width: 180px;
     }
+    .navbar .collapse .dropdown-menu{
+        text-align: center;
+    }
     /*REEL CAROUSEL*/
     .home-index .carousel-inner img{
         width: 100%;
@@ -810,7 +812,7 @@ hr{
         width: 140px;
     }
     .navbar .collapse .dropdown-menu{
-        float: right;
+        text-align: center;
     }
    .home-index h2{
     font-size: 18px;
