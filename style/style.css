@@ -1,5 +1,4 @@
 * {
-    
     box-sizing: border-box;
   }
   @font-face{
@@ -648,9 +647,6 @@ hr{
     .navbar .collapse .btn{
         font-size: 15px;
     }
-    .navbar .collapse .dropdown-menu{
-        float: right;
-    }
     .navbar img{
         width: 180px;
     }
@@ -661,7 +657,16 @@ hr{
     }
    .home-index h2{
     font-size: 18px;
-    }    
+    }  
+    .home-index .container2 .carousel-item .carousel-caption{
+        width: 70%;
+    }  
+    .home-index .container2 .carousel-item .carousel-caption h5{
+        font-size: 17px;
+    } 
+    .home-index .container2 .carousel-item .carousel-caption p{
+        font-size: 14px;
+    } 
   /*CATEGORIAS DE PRODUCTOS*/
   .contenedor figure{
     height: 270px;
@@ -675,6 +680,22 @@ hr{
      margin: 10px;
         text-align: center;
     }
+    .contenedor figure .capa h3{
+        display:none !important;
+    }
+    .contenedor figure .text-movile h2{
+       position: absolute;
+       font-family:"loew-light";
+       font-weight: bold;
+       color: white;
+        top: 15%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        background-color: #1b1b1bbc;
+        padding: 8px;
+        width: 50%;
+        border-bottom: 2px solid white;
+    }
     /*BLOQUE PAGO*/
     .bloque-pago h3{
         font-size: 14x;
@@ -686,7 +707,7 @@ hr{
         font-size: 14x;
     }
     .bloque-pago h5{
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .contact a, h6{
@@ -766,13 +787,19 @@ hr{
 
 
 /*MOVILES*/
+@media (max-width:760px){
+/*REEL CAROUSEL*/
+.home-index .carousel-inner img{
+    width: 100%;
+    height: 430px;
+}
+}
+
+/*MOVILES*/
 @media (max-width:480px){
     /*INDEX*/
     /**********************************************************/
     /*HEADER*/
-    .navbar{
-        white-space:nowrap;
-    }
     .navbar .collapse .navbar-nav li{
         font-size: 15px;
     }
@@ -782,27 +809,12 @@ hr{
     .navbar img{
         width: 140px;
     }
-
+    .navbar .collapse .dropdown-menu{
+        float: right;
+    }
    .home-index h2{
     font-size: 18px;
     }
-    .bloque-pago h3{
-        font-size: 14x;
-    }
-    .bloque-pago p{
-        font-size: 15x;
-    }
-    .bloque-pago a{
-        font-size: 14x;
-    }
-    .bloque-pago h5{
-        font-size: 14px;
-    }
-
-    .contact a, h6{
-        font-size: 13px;
-    }
- 
     /*REEL CAROUSEL*/
     .home-index .carousel-inner img{
         width: 100%;
@@ -838,7 +850,22 @@ hr{
         width: 50%;
         border-bottom: 2px solid white;
     }
+    .bloque-pago h3{
+        font-size: 20px;
+    }
+    .bloque-pago p{
+        font-size: 13px;
+    }
+    .bloque-pago a{
+        font-size: 14px;
+    }
+    .bloque-pago h5{
+        font-size: 16px;
+    }
 
+    .contact a, h6{
+        font-size: 13px;
+    }
     /*CONTACTANOS INDEX*/
     .bloq-cont{
         padding: 10px;
