@@ -168,6 +168,12 @@ hr {
     margin-bottom: 20px;
 }
 
+.card-pdt h6 {
+    font-family: "loew-light";
+    font-size: 17px;
+    font-weight: bold;
+}
+
 .card-pdt .card-b .stock-bottom {
     position:absolute;
 	bottom:0px;
@@ -177,6 +183,34 @@ hr {
     position:absolute;
 	bottom:0px;
     padding: 20px;
+}
+
+/*TELAS*/
+.home-productos .card-producto-tela {
+    padding-top: 40px;
+} 
+.card-producto-tela .bloq-inline{
+    margin-bottom: 15px;
+}
+.card-producto-tela h4 {
+    font-family: "loew-light";
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+.card-producto-tela .card-body a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 15px;
+    margin: 0px;
+}
+.card-producto-tela li {
+    list-style: none;
+    font-size: 14px;
+}
+.card-producto-tela h5 {
+    margin-bottom: 20px;
 }
 
 /**PRUEBA*/
