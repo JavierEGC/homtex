@@ -358,6 +358,11 @@ hr {
         text-align: center;
     }
 
+	
+	  .card-pdt h6 {
+        font-size: 15px;
+        text-align: center;
+    }
     .card-pdt p {
         display: none;
     }
