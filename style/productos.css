@@ -161,10 +161,11 @@ hr {
 
 .card-pdt h4 {
     font-family: "loew-light";
-    font-size: 27px;
+    font-size: 26px;
 }
 
 .card-pdt h5 {
+    font-size: 18px;
     margin-bottom: 20px;
 }
 

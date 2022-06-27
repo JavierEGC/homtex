@@ -161,6 +161,15 @@ hr {
     border-radius: 6px;
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.489);
 }
+.contenedor .figure3 {
+    position: relative;
+    height: 300px;
+    cursor: pointer;
+    width: 500px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.489);
+}
 
 .contenedor img {
     width: 100%;
@@ -252,7 +261,7 @@ hr {
 }
 
 .bloque-pago h5 {
-    font-size: 50px;
+    font-size: 42px;
     text-align: center;
     color: #464646;
     font-family: "loew-light";
@@ -496,15 +505,15 @@ h6 {
     /**********************************************************/
     /*HEADER*/
     .navbar .collapse .navbar-nav li {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .navbar .collapse .btn {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .navbar img {
-        width: 160px;
+        width: 180px;
     }
 
     /*REEL CAROUSEL*/
@@ -696,6 +705,13 @@ h6 {
         text-align: center;
     }
 
+    .contenedor .figure3 {
+        height: 240px;
+        width: 430px;
+        margin: 10px;
+        text-align: center;
+    }
+
     .home-index h2 {
         font-size: 24px;
     }
@@ -706,7 +722,7 @@ h6 {
     }
 
     .bloque-pago p {
-        font-size: 15x;
+        font-size: 24x;
     }
 
     .bloque-pago a {
@@ -714,7 +730,7 @@ h6 {
     }
 
     .bloque-pago h5 {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .contact a,
@@ -865,6 +881,13 @@ h6 {
         text-align: center;
     }
 
+    .contenedor .figure3 {
+        height: 270px;
+        width: 320px;
+        margin: 10px;
+        text-align: center;
+    }
+
     .contenedor figure .capa h3 {
         display: none !important;
     }
@@ -979,7 +1002,7 @@ h6 {
     }
 
     .footer p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .footer a {
